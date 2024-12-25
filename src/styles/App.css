@@ -1,0 +1,40 @@
+.App {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #ece9e6, #ffffff);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:nth-of-type(2) {
+    background-color: #008cba;
+}
+
+button:nth-of-type(2):hover {
+    background-color: #007bb5;
+}
